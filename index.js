@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const dotenv = require('dotenv');
-const WebsiteAnalyzer = require('./src/websiteAnalyzer');
+const WebsiteAnalyzer = require('./websiteanalyzer');
 
 // Load environment variables
 dotenv.config();

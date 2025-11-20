@@ -94,7 +94,7 @@ describe('Website Financing Analyzer API', () => {
 });
 
 describe('WebsiteAnalyzer', () => {
-  const WebsiteAnalyzer = require('../src/websiteAnalyzer');
+  const WebsiteAnalyzer = require('../websiteanalyzer');
   const analyzer = new WebsiteAnalyzer();
 
   describe('analyzeContent', () => {
